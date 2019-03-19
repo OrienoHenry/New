@@ -11,7 +11,7 @@ class Teamview extends Component{
 
 <div className="container-fluid" style={{padding:"0px"}}>
            <nav className="navbar navbar-light bg-light">
-                      <span className="navbar-brand mb-0 h1">TimeOff
+                      <span className="navbar-brand mb-0 h1">TimeOff.com
                       </span>
                       <form className="form-inline">
                       <Link className="btn btn-outline-success my-2 my-sm-0"  to='/'> LANDING </Link>
@@ -22,14 +22,14 @@ class Teamview extends Component{
 
     <div className="container">
            <div  className="headtext">
-                <h3> Roland messages </h3>
+                <h3> </h3>
                
         </div>
         </div>
 
         <div className="container">
           
-                <p style={{color:"blue" , marginTop:"40px"}}> Leave request to approve </p>
+                <h3 style={{color:"orange" , marginTop:"40px"}}> Request for Leave </h3>
          
         </div>
         
@@ -117,7 +117,7 @@ class Teamview extends Component{
 
         <div className="container">
           
-          <p style={{color:"blue" , marginTop:"40px"}}> All Leaves </p>
+          <p style={{color:"orange" , marginTop:"40px"}}> All Leaves </p>
    
   </div>
 
@@ -172,7 +172,7 @@ class Teamview extends Component{
 
         <div className="container-fluid"  style={{padding:"0px"}}>
             <nav className="navbar  fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff
+            <span className="navbar-brand mb-0 h1">TimeOff.com
             </span>
             </nav>
             </div>

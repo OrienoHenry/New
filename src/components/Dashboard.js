@@ -12,7 +12,7 @@ class Dashboard extends Component{
 
         <div className="container-fluid" style={{padding:"0px"}}>
         <nav className="navbar navbar-light bg-light" aria-label="breadcrumb">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item"> <Link to='/'> LANDING </Link></li>
                     <li class="breadcrumb-item"> <Link to='/absenceform'> ABSENCE-FORM </Link></li>
@@ -25,13 +25,13 @@ class Dashboard extends Component{
         <div className="container">
            <div  className="headingtext">
                 <h3> Employee Calendar </h3>
-                <p> James's calendar for 2019 </p>
+                <p> Emeka's calendar for 2019 </p>
         </div>
         </div>
 
         <div className="container">
             <div  className="headingtext">
-                <h3 style={{color:"blue", marginTop:"40px"}}>  Statistics </h3> 
+                <h3 style={{color:"orange", marginTop:"40px"}}>  Statistics </h3> 
          <div className="row headingtext">
             <div className="col-md-3">
             <table className="table" >
@@ -105,11 +105,11 @@ class Dashboard extends Component{
               <tbody>
               <tr>
      
-      <td>   <p> Supervisor:  <span style={{float:"right", color:"blue"}}>  James </span></p></td>
+      <td>   <p> Supervisor:  <span style={{float:"right", color:"orange"}}>  James </span></p></td>
       </tr>
       <tr>
      
-     <td> <p> Department: <span style={{float:"right", color:"blue"}}>  Sales </span></p></td>
+     <td> <p> Department: <span style={{float:"right", color:"orange"}}>  Sales </span></p></td>
      </tr>
      <tr>
      
@@ -126,7 +126,7 @@ class Dashboard extends Component{
     </div>
 
                 <div className="container">
-                <h3 style={{color:"blue", marginTop:"40px"}}>  Calendar  </h3> 
+                <h3 style={{color:"orange", marginTop:"40px"}}>  Calendar  </h3> 
                 <h5 style={{textAlign:"center" , marginTop:"30px"}}> Upcoming Months </h5>
                     <div className="row" style={{marginTop:"30px"}}>
                         <div className="col-md-3">
@@ -336,7 +336,7 @@ class Dashboard extends Component{
 </div>
                 
                 <div className="container">
-                <h3 style={{color:"blue", marginTop:"40px"}}> All Absences  </h3> 
+                <h3 style={{color:"orange", marginTop:"40px"}}> All Absences  </h3> 
                 </div>
         <div className="container-fluid">
         <table className="table"  style={{marginTop:"30px"}} >
@@ -345,7 +345,7 @@ class Dashboard extends Component{
       <th scope="col">Type</th>
       <th scope="col">Deducted</th>
       <th scope="col">Dates</th>
-      <th scope="col">Approved by</th>
+      <th scope="col">Approved For</th>
       <th scope="col"> Status </th>
     </tr>
   </thead>
@@ -399,7 +399,7 @@ class Dashboard extends Component{
 
         <div className="container-fluid"  style={{padding:"0px"}}>
             <nav className="navbar  fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
             </nav>
             </div>
 

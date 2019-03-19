@@ -44,7 +44,7 @@ handleChange(event){
         
     }
     else{
-        let error = "please use letters only";
+        let error = "Use letters only";
         event.target.nextSibling.innerHTML = error ;
         
     }
@@ -72,7 +72,7 @@ render() {
 <React.Fragment>
                    <div className="container-fluid" style={{padding:"0px"}}>
                         <nav className="navbar navbar-light bg-light">
-                            <span className="navbar-brand mb-0 h1">TimeOff</span>
+                            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
                                 <form className="form-inline">
                                 <Link className="btn btn-outline-success my-2 my-sm-0"  to='/'> Landing Page </Link>
                                 </form>
@@ -81,7 +81,7 @@ render() {
 <div className="container">
     <div className="row">
             <div className="col-md-5">
-                <h3 className="heading"> TimeOff </h3>
+                <h3 className="heading"> TimeOff.com </h3>
                
                         <div className="imagewrapper">
                             
@@ -111,7 +111,7 @@ render() {
 </div>
         
         <div className="form-group ">
-             <label htmlFor="managersname">Manger's Name:</label>
+             <label htmlFor="managersname">Manager's Name:</label>
              <input type="text" className="form-control" name="mname" value= {this.state.mname} onChange= {this.handleChange.bind(this)} required/>
              <div style={{color:"red"}}> {this.state.mnameError} </div>
         </div>
@@ -147,7 +147,7 @@ render() {
             </div>
                     <div className="container-fluid">
             <nav className="navbar fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
             </nav>
             </div>
 </React.Fragment>

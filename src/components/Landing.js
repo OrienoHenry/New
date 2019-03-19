@@ -12,7 +12,7 @@ class Landing extends Component {
             <React.Fragment>
             <div className="container-fluid" style={{padding:"0px"}}>
            <nav className="navbar navbar-light bg-light">
-                      <span className="navbar-brand mb-0 h1">TimeOff</span>
+                      <span className="navbar-brand mb-0 h1">TimeOff.com</span>
                       <form className="form-inline">
                             <button className="btn btn-outline-success my-2 my-sm-0" type="submit"> LANDING </button>
                             
@@ -23,20 +23,20 @@ class Landing extends Component {
               <section className="imgwrapper">
                   <div className="container">
                     <div className="text">
-                    <h2> TimeOf </h2>
-                    <p> When you need time to detox, revitalize and renourish your entire being, TimeOf is just a click away</p>
-                <p>At TimeOf, we make you feel reborn! </p>
+                    <h2> TimeOff.com </h2>
+                    <p> When you need time to detox, revitalize and renourish your entire being, TimeOff.com is just a click away</p>
+                <p>At TimeOff.com, we make you feel anew! </p>
                   </div>
                   
                   <Link className="btn btn-secondary buttonstyle" to='/signup'>SIGN UP</Link>
-                  <Link className="btn btn-secondary buttonstyle" to='/signin'>LOGIN</Link>
+                  <Link className="btn btn-secondary buttonstyle" to='/login'>LOGIN</Link>
         </div>
         </section> 
 
         
         <div className="container-fluid">
             <nav className="navbar fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
             </nav>
             </div>
             </React.Fragment>   

@@ -30,7 +30,7 @@ class Absenceform extends Component {
 
 <div className="container-fluid" style={{padding:"0px"}}>
                         <nav className="navbar navbar-light bg-light">
-                            <span className="navbar-brand mb-0 h1">TimeOff</span>
+                            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
                                 <form className="form-inline">
                                 <Link className="btn btn-outline-success my-2 my-sm-0"  to='/'> LANDING </Link>
                                 <Link className="btn btn-outline-success my-2 my-sm-0" to='/dashboard' type="submit"> DASHBOARD </Link>
@@ -104,7 +104,7 @@ class Absenceform extends Component {
 
 <div className="container-fluid"  style={{padding:"0px"}}>
             <nav className="navbar  fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
             </nav>
             </div>
 

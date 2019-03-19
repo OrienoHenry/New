@@ -50,11 +50,11 @@ handleChange(event){
 
                 
                 if(!data.match(fnameExp)){
-                    fullnameError = "Please use letters only" 
+                    fullnameError = "Use letters only" 
                 }
 
                 if(!this.state.email){
-                    emailError = "invalid email"
+                    emailError = "Invalid email"
                 }
 
                 if (emailError || fullnameError){
@@ -80,9 +80,9 @@ render() {
     <React.Fragment>
   <div className="container-fluid" style={{padding:"0px"}}>
            <nav className="navbar navbar-light bg-light">
-                      <span className="navbar-brand mb-0 h1">TimeOff</span>
+                      <span className="navbar-brand mb-0 h1">TimeOff.com</span>
                       <form className="form-inline">
-                      <Link className="btn btn-outline-success my-2 my-sm-0"  to='/'> LANDING </Link>
+                      <Link className="btn btn-outline-success my-2 my-sm-0"  to='/'> LANDING</Link>
                       </form>
                 </nav>
     </div>
@@ -90,7 +90,7 @@ render() {
                 <div className="bgpicture">
     
             <div className="container">
-            <h3 className="heading"> Please Enter Your Login Details </h3>
+            <h3 className="heading"> </h3>
             <div className="pageform">
                 
                 <form onSubmit={this.handleSubmit}>
@@ -114,7 +114,7 @@ render() {
         
 
         {/* <button type="button" > Login </button> */}
-        <button type="submit" className="btn btn-secondary btn-large signinbutton">Login </button>
+        <button type="submit" className="btn btn-secondary btn-large signinbutton">Login</button>
                 </form>
             </div>
     </div>
@@ -122,7 +122,7 @@ render() {
 </div>
         <div className="container-fluid"  style={{padding:"0px"}}>
             <nav className="navbar  fixed-bottom navbar-light bg-light">
-            <span className="navbar-brand mb-0 h1">TimeOff</span>
+            <span className="navbar-brand mb-0 h1">TimeOff.com</span>
             </nav>
             </div>
 
